@@ -4,24 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Contact Form</title>
   </head>
   <body>
-    <form action="https://formsubmit.co/ignacio13542@gmail.com" method="POST">
-      <input
-        type="text"
-        name="name"
-        placeholder="Write your message here"
-        required
-      />
-      <input type="email" name="email" placeholder="Email adress" required />
-      <button type="submit">Send</button>
-      <input type="hidden" name="_captcha" value="false" />
-      <input
-        type="hidden"
-        name="_next"
-        value="https://nacho185.github.io/Contact-form/html/Thankyou.html"
-      />
-    </form>
+    <div class="form_contaner">
+      <form action="https://formsubmit.co/ignacio13542@gmail.com" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="Write your message here"
+          required
+        />
+        <input type="email" name="email" placeholder="Email adress" required />
+        <button type="submit">Send</button>
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://nacho185.github.io/Contact-form/html/Thankyou.html"
+        />
+      </form>
+    </div>
   </body>
 </html>
