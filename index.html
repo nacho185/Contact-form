@@ -10,13 +10,18 @@
   <body>
     <div class="form_container">
       <form action="https://formsubmit.co/ignacio13542@gmail.com" method="POST">
-        <input
+        <input type="email" name="email" placeholder="Email adress" required />
+        <textarea
           type="text"
           name="name"
           placeholder="Write your message here"
           required
-        />
-        <input type="email" name="email" placeholder="Email adress" required />
+          name=""
+          id=""
+          cols="25"
+          rows="5"
+        ></textarea>
+
         <button type="submit">Send</button>
         <input type="hidden" name="_captcha" value="false" />
         <input

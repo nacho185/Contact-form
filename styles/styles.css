@@ -44,5 +44,11 @@ body {
   float: left;
 }
 
+.form_container form textarea {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 /*end form_contaner*/
 /*# sourceMappingURL=styles.css.map */
